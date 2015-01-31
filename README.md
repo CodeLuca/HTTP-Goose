@@ -1,2 +1,2 @@
 # HTTP-Goose
-A web utility that lets you create easy APIs with Mongoose
+A NodeJS library to easily create MongoDB (with Mongoose) based APIs
