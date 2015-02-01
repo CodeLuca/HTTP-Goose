@@ -1,2 +1,2 @@
-var httpgoose = require("../lib")({"user":"public_api", "pass":"public_api", "path":"chaxo"});
+var httpgoose = require("../lib")({host:"localhost", "user":"public_api", "pass":"123", "name":"chaxo"});
 var http = require("http");
