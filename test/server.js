@@ -1,8 +1,9 @@
-var httpgoose = require("../lib/mongo.js")({host:"localhost", "user":"public_api", "pass":"public_api", "name":"chaxo"});
-var http = require("http");
+var goose = require("../lib")({"user":"public_api", "pass":"public_api", "name":"chaxo"});
 
-httpgoose.createConnection(function(db){
-  console.log(db.constructor.prototype);
-  db.testExtending("Lol");
-  console.log("connected");
+goose.createServer(function(req, res){
+  res.goose.write("Test");
+  res.write("test again");
+  res.end();
 });
+
+goose.listen(80);
