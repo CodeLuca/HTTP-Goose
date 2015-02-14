@@ -1,4 +1,8 @@
-var goose = require("../lib")({"user":"public_api", "pass":"public_api", "name":"chaxo"});
+var goose = require("../lib")({"name":"chaxo"});
+
+goose.mongo.on("error", function(err){
+  console.log(err)
+});
 
 goose.createServer(function(req, res){
   res.goose.write("Hello");
