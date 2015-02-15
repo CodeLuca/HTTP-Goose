@@ -1,6 +1,6 @@
 {
   "name": "httpgoose",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A library that helps you make MongoDB-based APIs easily.",
   "main": "lib",
   "directories": {
