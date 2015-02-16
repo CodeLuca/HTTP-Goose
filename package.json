@@ -1,7 +1,7 @@
 {
   "name": "httpgoose",
   "version": "0.2.1",
-  "description": "A library that helps you make MongoDB-based APIs easily.",
+  "description": "A library that makes MongoDB-based web APIs easier.",
   "main": "lib",
   "directories": {
     "example": "test"

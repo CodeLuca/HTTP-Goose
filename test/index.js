@@ -1,5 +1,3 @@
 goose = require("../lib")({});
-goose;
-goose.mongo;
-goose.server;
-console.log(" - HTTP Goose: Aww yiss (test successful).");
+goose, goose.mongo, goose.server;
+console.info(" - HTTP Goose: Aww yiss (test successful).");
