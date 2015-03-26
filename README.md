@@ -1,6 +1,6 @@
 HTTP-Goose
 ==========
-A NodeJS library made to create MongoDB-based web APIs.  Using just the HTTP module and the [MongoDB NodeJS Driver](https://github.com/JamenMarz/HTTP-Goose).
+A NodeJS library made to create MongoDB-based web APIs.  Using just the HTTP module and the [MongoDB NodeJS Driver](https://github.com/mongodb/node-mongodb-native).
 
 <br>
 ## Dependencies
