@@ -21,7 +21,7 @@ npm install httpgoose
 ```
 <br>
 ## Test
-Test if the library works (indecating you have everyhting installed correctly too, like MongoDB, and MongoDB NodeJS Driver):
+Test if the library works (indecating you have everything installed correctly too, like MongoDB, and MongoDB NodeJS Driver):
 
 ```
 npm test httpgoose
